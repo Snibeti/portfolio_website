@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300');
+
 *{
 	
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	color: white;
+	box-sizing: border-box;
+}
+
+html {
+  box-sizing: border-box;
 }
 
 html, body { 
@@ -12,10 +19,29 @@ html, body {
 
 }
 
+img {
+
+	height: 500px;
+	width: 500px;
+	border: none;
+    display: block;
+    margin: 0 auto;
+
+    clip: rect(0px,300px,300px,0px);
+}
+
 #wrapper {
             min-height: 100%;
             background-color: #333; 
-        }
+}
+
+#wrapper_work {
+
+	min-height:40px;
+	
+	}
+
+
 
 h1 {
 
@@ -44,23 +70,25 @@ color: cornflowerblue;
 
 }
 
-#nav {
+.nav {
 	
 	text-align:center;
 	padding: 0;
 
 }
-#nav li {
+.nav li {
 
-	display:inline;
+	display:inline-block;
 
 }
-#nav a {
+.nav a {
 
 	text-decoration:none; 
 	padding:0 30px; /* variable width */
 
 }
+
+
 
 li a:hover {
 
@@ -92,10 +120,15 @@ color: cornflowerblue;
 
 #sticky_con {
 
-	margin-top: -27px;
+	margin-top: -16px;
 	max-width: 600px;
 	background-color: cornflowerblue;
 	min-height: 100%;
+	width:50%;
+	float:left;
+	position: sticky;
+	top: 0px;
+
 
 }
 
@@ -104,6 +137,36 @@ color: cornflowerblue;
 	color:cornflowerblue;
 
 }
+
+#portfolio {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+   
+}
+
+.portfolio-content {
+    
+    overflow: hidden;
+    padding: 0;
+
+   
+
+}
+
+.portfolio-content:hover img{
+
+
+
+
+}
+
+div.portfolio-item {
+    max-width: 100px;
+    line-height: 10;
+    text-align: center;
+}
+
 
 
 
