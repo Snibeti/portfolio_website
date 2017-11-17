@@ -1,0 +1,31 @@
+*{
+	text-decoration: none;
+	box-sizing: border-box;
+	background-color: #333;
+}
+
+h2 {
+
+
+	transition-duration: 1s;
+	margin-top: 10px;
+	color: cornflowerblue;
+	text-align: center;
+	font-size: 4rem;
+}
+
+h3 {
+
+	text-align: center;
+}
+
+.nav {
+
+	color: white;
+}
+
+h2 a:hover {
+	
+	transition-duration: 0.5s, 0.5s;
+	color: cornflowerblue;
+}
