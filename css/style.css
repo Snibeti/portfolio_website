@@ -4,8 +4,8 @@
 	
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	color: white;
 	box-sizing: border-box;
+	color: white;
 }
 
 html {
@@ -100,41 +100,6 @@ color: cornflowerblue;
 
 }
 
-.about_paragraph p{
-
-	color: white;
-	font-weight: 200;
-	padding-top: 10px;
-	padding-left: 60px;
-	padding-right: 60px;
-	line-height: 20px;
-
-}
-
-.about_paragraph h2 {
-
-	padding-left: 70px;
-	padding-right: 70px;
-	padding-top: 30px;
-	text-transform: uppercase;
-	font-weight: 400;
-	font-size: 200%;
-
-}
-
-#sticky_con {
-
-	margin-top: -16px;
-	max-width: 600px;
-	background-color: cornflowerblue;
-	min-height: 100%;
-	width:50%;
-	float:left;
-	position: sticky;
-	top: 0px;
-
-
-}
 
 .active {
 

@@ -14,9 +14,14 @@ h2 {
 	font-size: 4rem;
 }
 
+
+
 h3 {
 
 	text-align: center;
+	padding-top: 50px;
+	font-weight: 600;
+	font-size: 150%;
 }
 
 .nav {
@@ -28,4 +33,37 @@ h2 a:hover {
 	
 	transition-duration: 0.5s, 0.5s;
 	color: cornflowerblue;
+}
+
+#social_icons {
+
+	width: 100%;
+  	margin: 0 auto;
+  	text-align: center;
+  }
+
+
+ a {
+
+ 	text-align: center;
+ }
+
+.fa {
+
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Adds a hover effect */
+.fa:hover {
+
+	color: cornflowerblue;
+	transition-duration: 0.5s, 0.5s;
+   
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
 }
