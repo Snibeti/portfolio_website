@@ -39,6 +39,32 @@ div.portfolio {
 	overflow: hidden;
 }
 
+div.portfolio_text {
+
+
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+	padding-top: 150px;
+}
+
+h3 {
+
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.portfolio_text:hover {
+
+	opacity: 1;
+}
+
 
 div.gallery img {
     width: 100%;
@@ -63,20 +89,6 @@ div.desc {
 
 	margin:0 2%;
 }
-/*
-.responsive {
-    position:relative;
-    width:400px;
-    height:400px;
-}
-.responsive img {
-    width:100%;
-    vertical-align:top;
-}
-
-.responsive:hover:after {
-    opacity:1;
-}*/
 
 @media only screen and (max-width: 700px){
     .responsive {

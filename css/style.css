@@ -81,7 +81,7 @@ color: cornflowerblue;
 .nav li {
 
 
-	transition-duration: 0.5s;
+	transition: all .3s ease-in-out;
 	display:inline-block;
 
 }
