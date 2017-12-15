@@ -17,6 +17,7 @@ h2 {
 .mail {
 
 	text-align: center;
+
 }
 
 
@@ -27,6 +28,12 @@ h3 {
 	padding-top: 50px;
 	font-weight: 600;
 	font-size: 150%;
+}
+
+.mail a:hover {
+
+	transition: all .3s ease-in-out;
+	color: cornflowerblue;
 }
 
 .nav {
